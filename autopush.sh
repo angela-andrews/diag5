@@ -17,6 +17,7 @@ do
 	cat /proc/cpuinfo >> cpuandmem.txt
 	git add .
 	git commit -m "updating file"
+	git push --set-upstream origin number2
 	sleep 60
 done
  
