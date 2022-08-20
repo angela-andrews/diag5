@@ -6,10 +6,11 @@
 # Script: autopush.sh
 # Description: This script will push the current memory and cpu usage file
 # to a GitHub repo every minute
+#	*** run the file in the background with ./autopush.sh & ***
 #***********************************************
 
 var=0
-# send memory usage to file
+# send memory & cpu usage to file
 while [ var=0 ]
 do
 	date >> cpuandmem.txt
